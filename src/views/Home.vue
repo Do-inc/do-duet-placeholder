@@ -10,13 +10,17 @@
 
 		<!-- Begin Mailchimp Signup Form -->
 		<div id="mc_embed_signup" class="v21_25">
-			<form action="https://studio.us6.list-manage.com/subscribe/post?u=db37477a78610a7fd68c1eb65&amp;id=39e8d41aaf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<form
+				action="https://studio.us6.list-manage.com/subscribe/post?u=db37477a78610a7fd68c1eb65&amp;id=39e8d41aaf"
+				method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+				target="_blank" novalidate>
 				<div id="mc_embed_signup_scroll" class="v21_26">
 					<div class="v21_27">
-						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your@email.com" required>
+						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
+						       placeholder="your@email.com" required>
 					</div>
 					<button value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="v21_29" type="submit">
-						<i class='bx bxs-send' ></i>
+						<i class='bx bxs-send'></i>
 					</button>
 
 					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
@@ -35,12 +39,9 @@
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
 	name: 'Home',
-	components: {
-		HelloWorld
-	}
+	components: {}
 }
 </script>
